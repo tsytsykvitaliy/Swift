@@ -84,7 +84,6 @@ print("Average = \(result.avg)")
 print("Percent = \(result.percent)")
 
 // 9
-
 func calculate(symbol: String) -> (Int, Int) -> Int {
     
     // inner function to add two numbers
