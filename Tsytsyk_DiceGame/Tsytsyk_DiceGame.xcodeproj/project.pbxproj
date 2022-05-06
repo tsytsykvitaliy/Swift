@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F6946CE27C7E2FA00A814C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6946CD27C7E2FA00A814C2 /* AppDelegate.swift */; };
-		3F6946D027C7E2FA00A814C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6946CF27C7E2FA00A814C2 /* SceneDelegate.swift */; };
-		3F6946D227C7E2FA00A814C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6946D127C7E2FA00A814C2 /* ViewController.swift */; };
-		3F6946D527C7E2FA00A814C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6946D327C7E2FA00A814C2 /* Main.storyboard */; };
-		3F6946D727C7E2FB00A814C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6946D627C7E2FB00A814C2 /* Assets.xcassets */; };
-		3F6946DA27C7E2FB00A814C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6946D827C7E2FB00A814C2 /* LaunchScreen.storyboard */; };
-		3F6946E527C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6946E427C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.swift */; };
-		3F6946EF27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6946EE27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.swift */; };
-		3F6946F127C7E2FB00A814C2 /* Tsytsyk_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6946F027C7E2FB00A814C2 /* Tsytsyk_DiceGameUITestsLaunchTests.swift */; };
+		3F82330E27FF3C2E003917AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82330D27FF3C2E003917AB /* AppDelegate.swift */; };
+		3F82331027FF3C2E003917AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82330F27FF3C2E003917AB /* SceneDelegate.swift */; };
+		3F82331227FF3C2E003917AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82331127FF3C2E003917AB /* ViewController.swift */; };
+		3F82331527FF3C2E003917AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F82331327FF3C2E003917AB /* Main.storyboard */; };
+		3F82331727FF3C2F003917AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F82331627FF3C2F003917AB /* Assets.xcassets */; };
+		3F82331A27FF3C2F003917AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F82331827FF3C2F003917AB /* LaunchScreen.storyboard */; };
+		3F82332527FF3C2F003917AB /* Tsytsyk_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82332427FF3C2F003917AB /* Tsytsyk_DiceGameTests.swift */; };
+		3F82332F27FF3C30003917AB /* Tsytsyk_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82332E27FF3C30003917AB /* Tsytsyk_DiceGameUITests.swift */; };
+		3F82333127FF3C30003917AB /* Tsytsyk_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82333027FF3C30003917AB /* Tsytsyk_DiceGameUITestsLaunchTests.swift */; };
+		3F82333E27FF3CF2003917AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82333D27FF3CF2003917AB /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F6946E127C7E2FB00A814C2 /* PBXContainerItemProxy */ = {
+		3F82332127FF3C2F003917AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F6946C227C7E2FA00A814C2 /* Project object */;
+			containerPortal = 3F82330227FF3C2E003917AB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F6946C927C7E2FA00A814C2;
+			remoteGlobalIDString = 3F82330927FF3C2E003917AB;
 			remoteInfo = Tsytsyk_DiceGame;
 		};
-		3F6946EB27C7E2FB00A814C2 /* PBXContainerItemProxy */ = {
+		3F82332B27FF3C30003917AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F6946C227C7E2FA00A814C2 /* Project object */;
+			containerPortal = 3F82330227FF3C2E003917AB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F6946C927C7E2FA00A814C2;
+			remoteGlobalIDString = 3F82330927FF3C2E003917AB;
 			remoteInfo = Tsytsyk_DiceGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F6946CA27C7E2FA00A814C2 /* Tsytsyk_DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tsytsyk_DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6946CD27C7E2FA00A814C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F6946CF27C7E2FA00A814C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F6946D127C7E2FA00A814C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F6946D427C7E2FA00A814C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F6946D627C7E2FB00A814C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F6946D927C7E2FB00A814C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F6946DB27C7E2FB00A814C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F6946E027C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tsytsyk_DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6946E427C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_DiceGameTests.swift; sourceTree = "<group>"; };
-		3F6946EA27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tsytsyk_DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6946EE27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_DiceGameUITests.swift; sourceTree = "<group>"; };
-		3F6946F027C7E2FB00A814C2 /* Tsytsyk_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F82330A27FF3C2E003917AB /* Tsytsyk_DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tsytsyk_DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F82330D27FF3C2E003917AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F82330F27FF3C2E003917AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F82331127FF3C2E003917AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F82331427FF3C2E003917AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F82331627FF3C2F003917AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F82331927FF3C2F003917AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F82331B27FF3C2F003917AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F82332027FF3C2F003917AB /* Tsytsyk_DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tsytsyk_DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F82332427FF3C2F003917AB /* Tsytsyk_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_DiceGameTests.swift; sourceTree = "<group>"; };
+		3F82332A27FF3C30003917AB /* Tsytsyk_DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tsytsyk_DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F82332E27FF3C30003917AB /* Tsytsyk_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_DiceGameUITests.swift; sourceTree = "<group>"; };
+		3F82333027FF3C30003917AB /* Tsytsyk_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F82333D27FF3CF2003917AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F6946C727C7E2FA00A814C2 /* Frameworks */ = {
+		3F82330727FF3C2E003917AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6946DD27C7E2FB00A814C2 /* Frameworks */ = {
+		3F82331D27FF3C2F003917AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6946E727C7E2FB00A814C2 /* Frameworks */ = {
+		3F82332727FF3C30003917AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,53 +78,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F6946C127C7E2FA00A814C2 = {
+		3F82330127FF3C2E003917AB = {
 			isa = PBXGroup;
 			children = (
-				3F6946CC27C7E2FA00A814C2 /* Tsytsyk_DiceGame */,
-				3F6946E327C7E2FB00A814C2 /* Tsytsyk_DiceGameTests */,
-				3F6946ED27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests */,
-				3F6946CB27C7E2FA00A814C2 /* Products */,
+				3F82330C27FF3C2E003917AB /* Tsytsyk_DiceGame */,
+				3F82332327FF3C2F003917AB /* Tsytsyk_DiceGameTests */,
+				3F82332D27FF3C30003917AB /* Tsytsyk_DiceGameUITests */,
+				3F82330B27FF3C2E003917AB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F6946CB27C7E2FA00A814C2 /* Products */ = {
+		3F82330B27FF3C2E003917AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F6946CA27C7E2FA00A814C2 /* Tsytsyk_DiceGame.app */,
-				3F6946E027C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.xctest */,
-				3F6946EA27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.xctest */,
+				3F82330A27FF3C2E003917AB /* Tsytsyk_DiceGame.app */,
+				3F82332027FF3C2F003917AB /* Tsytsyk_DiceGameTests.xctest */,
+				3F82332A27FF3C30003917AB /* Tsytsyk_DiceGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F6946CC27C7E2FA00A814C2 /* Tsytsyk_DiceGame */ = {
+		3F82330C27FF3C2E003917AB /* Tsytsyk_DiceGame */ = {
 			isa = PBXGroup;
 			children = (
-				3F6946CD27C7E2FA00A814C2 /* AppDelegate.swift */,
-				3F6946CF27C7E2FA00A814C2 /* SceneDelegate.swift */,
-				3F6946D127C7E2FA00A814C2 /* ViewController.swift */,
-				3F6946D327C7E2FA00A814C2 /* Main.storyboard */,
-				3F6946D627C7E2FB00A814C2 /* Assets.xcassets */,
-				3F6946D827C7E2FB00A814C2 /* LaunchScreen.storyboard */,
-				3F6946DB27C7E2FB00A814C2 /* Info.plist */,
+				3F82330D27FF3C2E003917AB /* AppDelegate.swift */,
+				3F82330F27FF3C2E003917AB /* SceneDelegate.swift */,
+				3F82331127FF3C2E003917AB /* ViewController.swift */,
+				3F82331327FF3C2E003917AB /* Main.storyboard */,
+				3F82331627FF3C2F003917AB /* Assets.xcassets */,
+				3F82331827FF3C2F003917AB /* LaunchScreen.storyboard */,
+				3F82331B27FF3C2F003917AB /* Info.plist */,
+				3F82333D27FF3CF2003917AB /* GameViewController.swift */,
 			);
 			path = Tsytsyk_DiceGame;
 			sourceTree = "<group>";
 		};
-		3F6946E327C7E2FB00A814C2 /* Tsytsyk_DiceGameTests */ = {
+		3F82332327FF3C2F003917AB /* Tsytsyk_DiceGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F6946E427C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.swift */,
+				3F82332427FF3C2F003917AB /* Tsytsyk_DiceGameTests.swift */,
 			);
 			path = Tsytsyk_DiceGameTests;
 			sourceTree = "<group>";
 		};
-		3F6946ED27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests */ = {
+		3F82332D27FF3C30003917AB /* Tsytsyk_DiceGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3F6946EE27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.swift */,
-				3F6946F027C7E2FB00A814C2 /* Tsytsyk_DiceGameUITestsLaunchTests.swift */,
+				3F82332E27FF3C30003917AB /* Tsytsyk_DiceGameUITests.swift */,
+				3F82333027FF3C30003917AB /* Tsytsyk_DiceGameUITestsLaunchTests.swift */,
 			);
 			path = Tsytsyk_DiceGameUITests;
 			sourceTree = "<group>";
@@ -130,13 +133,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F6946C927C7E2FA00A814C2 /* Tsytsyk_DiceGame */ = {
+		3F82330927FF3C2E003917AB /* Tsytsyk_DiceGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F6946F427C7E2FB00A814C2 /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGame" */;
+			buildConfigurationList = 3F82333427FF3C30003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGame" */;
 			buildPhases = (
-				3F6946C627C7E2FA00A814C2 /* Sources */,
-				3F6946C727C7E2FA00A814C2 /* Frameworks */,
-				3F6946C827C7E2FA00A814C2 /* Resources */,
+				3F82330627FF3C2E003917AB /* Sources */,
+				3F82330727FF3C2E003917AB /* Frameworks */,
+				3F82330827FF3C2E003917AB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +147,69 @@
 			);
 			name = Tsytsyk_DiceGame;
 			productName = Tsytsyk_DiceGame;
-			productReference = 3F6946CA27C7E2FA00A814C2 /* Tsytsyk_DiceGame.app */;
+			productReference = 3F82330A27FF3C2E003917AB /* Tsytsyk_DiceGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F6946DF27C7E2FB00A814C2 /* Tsytsyk_DiceGameTests */ = {
+		3F82331F27FF3C2F003917AB /* Tsytsyk_DiceGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F6946F727C7E2FB00A814C2 /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameTests" */;
+			buildConfigurationList = 3F82333727FF3C30003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameTests" */;
 			buildPhases = (
-				3F6946DC27C7E2FB00A814C2 /* Sources */,
-				3F6946DD27C7E2FB00A814C2 /* Frameworks */,
-				3F6946DE27C7E2FB00A814C2 /* Resources */,
+				3F82331C27FF3C2F003917AB /* Sources */,
+				3F82331D27FF3C2F003917AB /* Frameworks */,
+				3F82331E27FF3C2F003917AB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F6946E227C7E2FB00A814C2 /* PBXTargetDependency */,
+				3F82332227FF3C2F003917AB /* PBXTargetDependency */,
 			);
 			name = Tsytsyk_DiceGameTests;
 			productName = Tsytsyk_DiceGameTests;
-			productReference = 3F6946E027C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.xctest */;
+			productReference = 3F82332027FF3C2F003917AB /* Tsytsyk_DiceGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3F6946E927C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests */ = {
+		3F82332927FF3C30003917AB /* Tsytsyk_DiceGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F6946FA27C7E2FB00A814C2 /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameUITests" */;
+			buildConfigurationList = 3F82333A27FF3C30003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameUITests" */;
 			buildPhases = (
-				3F6946E627C7E2FB00A814C2 /* Sources */,
-				3F6946E727C7E2FB00A814C2 /* Frameworks */,
-				3F6946E827C7E2FB00A814C2 /* Resources */,
+				3F82332627FF3C30003917AB /* Sources */,
+				3F82332727FF3C30003917AB /* Frameworks */,
+				3F82332827FF3C30003917AB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F6946EC27C7E2FB00A814C2 /* PBXTargetDependency */,
+				3F82332C27FF3C30003917AB /* PBXTargetDependency */,
 			);
 			name = Tsytsyk_DiceGameUITests;
 			productName = Tsytsyk_DiceGameUITests;
-			productReference = 3F6946EA27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.xctest */;
+			productReference = 3F82332A27FF3C30003917AB /* Tsytsyk_DiceGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F6946C227C7E2FA00A814C2 /* Project object */ = {
+		3F82330227FF3C2E003917AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					3F6946C927C7E2FA00A814C2 = {
+					3F82330927FF3C2E003917AB = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					3F6946DF27C7E2FB00A814C2 = {
+					3F82331F27FF3C2F003917AB = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 3F6946C927C7E2FA00A814C2;
+						TestTargetID = 3F82330927FF3C2E003917AB;
 					};
-					3F6946E927C7E2FB00A814C2 = {
+					3F82332927FF3C30003917AB = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 3F6946C927C7E2FA00A814C2;
+						TestTargetID = 3F82330927FF3C2E003917AB;
 					};
 				};
 			};
-			buildConfigurationList = 3F6946C527C7E2FA00A814C2 /* Build configuration list for PBXProject "Tsytsyk_DiceGame" */;
+			buildConfigurationList = 3F82330527FF3C2E003917AB /* Build configuration list for PBXProject "Tsytsyk_DiceGame" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F6946C127C7E2FA00A814C2;
-			productRefGroup = 3F6946CB27C7E2FA00A814C2 /* Products */;
+			mainGroup = 3F82330127FF3C2E003917AB;
+			productRefGroup = 3F82330B27FF3C2E003917AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F6946C927C7E2FA00A814C2 /* Tsytsyk_DiceGame */,
-				3F6946DF27C7E2FB00A814C2 /* Tsytsyk_DiceGameTests */,
-				3F6946E927C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests */,
+				3F82330927FF3C2E003917AB /* Tsytsyk_DiceGame */,
+				3F82331F27FF3C2F003917AB /* Tsytsyk_DiceGameTests */,
+				3F82332927FF3C30003917AB /* Tsytsyk_DiceGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F6946C827C7E2FA00A814C2 /* Resources */ = {
+		3F82330827FF3C2E003917AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6946DA27C7E2FB00A814C2 /* LaunchScreen.storyboard in Resources */,
-				3F6946D727C7E2FB00A814C2 /* Assets.xcassets in Resources */,
-				3F6946D527C7E2FA00A814C2 /* Main.storyboard in Resources */,
+				3F82331A27FF3C2F003917AB /* LaunchScreen.storyboard in Resources */,
+				3F82331727FF3C2F003917AB /* Assets.xcassets in Resources */,
+				3F82331527FF3C2E003917AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6946DE27C7E2FB00A814C2 /* Resources */ = {
+		3F82331E27FF3C2F003917AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6946E827C7E2FB00A814C2 /* Resources */ = {
+		3F82332827FF3C30003917AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +257,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F6946C627C7E2FA00A814C2 /* Sources */ = {
+		3F82330627FF3C2E003917AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6946D227C7E2FA00A814C2 /* ViewController.swift in Sources */,
-				3F6946CE27C7E2FA00A814C2 /* AppDelegate.swift in Sources */,
-				3F6946D027C7E2FA00A814C2 /* SceneDelegate.swift in Sources */,
+				3F82333E27FF3CF2003917AB /* GameViewController.swift in Sources */,
+				3F82331227FF3C2E003917AB /* ViewController.swift in Sources */,
+				3F82330E27FF3C2E003917AB /* AppDelegate.swift in Sources */,
+				3F82331027FF3C2E003917AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6946DC27C7E2FB00A814C2 /* Sources */ = {
+		3F82331C27FF3C2F003917AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6946E527C7E2FB00A814C2 /* Tsytsyk_DiceGameTests.swift in Sources */,
+				3F82332527FF3C2F003917AB /* Tsytsyk_DiceGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F6946E627C7E2FB00A814C2 /* Sources */ = {
+		3F82332627FF3C30003917AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6946EF27C7E2FB00A814C2 /* Tsytsyk_DiceGameUITests.swift in Sources */,
-				3F6946F127C7E2FB00A814C2 /* Tsytsyk_DiceGameUITestsLaunchTests.swift in Sources */,
+				3F82332F27FF3C30003917AB /* Tsytsyk_DiceGameUITests.swift in Sources */,
+				3F82333127FF3C30003917AB /* Tsytsyk_DiceGameUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F6946E227C7E2FB00A814C2 /* PBXTargetDependency */ = {
+		3F82332227FF3C2F003917AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F6946C927C7E2FA00A814C2 /* Tsytsyk_DiceGame */;
-			targetProxy = 3F6946E127C7E2FB00A814C2 /* PBXContainerItemProxy */;
+			target = 3F82330927FF3C2E003917AB /* Tsytsyk_DiceGame */;
+			targetProxy = 3F82332127FF3C2F003917AB /* PBXContainerItemProxy */;
 		};
-		3F6946EC27C7E2FB00A814C2 /* PBXTargetDependency */ = {
+		3F82332C27FF3C30003917AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F6946C927C7E2FA00A814C2 /* Tsytsyk_DiceGame */;
-			targetProxy = 3F6946EB27C7E2FB00A814C2 /* PBXContainerItemProxy */;
+			target = 3F82330927FF3C2E003917AB /* Tsytsyk_DiceGame */;
+			targetProxy = 3F82332B27FF3C30003917AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F6946D327C7E2FA00A814C2 /* Main.storyboard */ = {
+		3F82331327FF3C2E003917AB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F6946D427C7E2FA00A814C2 /* Base */,
+				3F82331427FF3C2E003917AB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F6946D827C7E2FB00A814C2 /* LaunchScreen.storyboard */ = {
+		3F82331827FF3C2F003917AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F6946D927C7E2FB00A814C2 /* Base */,
+				3F82331927FF3C2F003917AB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F6946F227C7E2FB00A814C2 /* Debug */ = {
+		3F82333227FF3C30003917AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		3F6946F327C7E2FB00A814C2 /* Release */ = {
+		3F82333327FF3C30003917AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +436,7 @@
 			};
 			name = Release;
 		};
-		3F6946F527C7E2FB00A814C2 /* Debug */ = {
+		3F82333527FF3C30003917AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +464,7 @@
 			};
 			name = Debug;
 		};
-		3F6946F627C7E2FB00A814C2 /* Release */ = {
+		3F82333627FF3C30003917AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -488,7 +492,7 @@
 			};
 			name = Release;
 		};
-		3F6946F827C7E2FB00A814C2 /* Debug */ = {
+		3F82333827FF3C30003917AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +516,7 @@
 			};
 			name = Debug;
 		};
-		3F6946F927C7E2FB00A814C2 /* Release */ = {
+		3F82333927FF3C30003917AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -536,7 +540,7 @@
 			};
 			name = Release;
 		};
-		3F6946FB27C7E2FB00A814C2 /* Debug */ = {
+		3F82333B27FF3C30003917AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -558,7 +562,7 @@
 			};
 			name = Debug;
 		};
-		3F6946FC27C7E2FB00A814C2 /* Release */ = {
+		3F82333C27FF3C30003917AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -583,43 +587,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F6946C527C7E2FA00A814C2 /* Build configuration list for PBXProject "Tsytsyk_DiceGame" */ = {
+		3F82330527FF3C2E003917AB /* Build configuration list for PBXProject "Tsytsyk_DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F6946F227C7E2FB00A814C2 /* Debug */,
-				3F6946F327C7E2FB00A814C2 /* Release */,
+				3F82333227FF3C30003917AB /* Debug */,
+				3F82333327FF3C30003917AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F6946F427C7E2FB00A814C2 /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGame" */ = {
+		3F82333427FF3C30003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F6946F527C7E2FB00A814C2 /* Debug */,
-				3F6946F627C7E2FB00A814C2 /* Release */,
+				3F82333527FF3C30003917AB /* Debug */,
+				3F82333627FF3C30003917AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F6946F727C7E2FB00A814C2 /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameTests" */ = {
+		3F82333727FF3C30003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F6946F827C7E2FB00A814C2 /* Debug */,
-				3F6946F927C7E2FB00A814C2 /* Release */,
+				3F82333827FF3C30003917AB /* Debug */,
+				3F82333927FF3C30003917AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F6946FA27C7E2FB00A814C2 /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameUITests" */ = {
+		3F82333A27FF3C30003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_DiceGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F6946FB27C7E2FB00A814C2 /* Debug */,
-				3F6946FC27C7E2FB00A814C2 /* Release */,
+				3F82333B27FF3C30003917AB /* Debug */,
+				3F82333C27FF3C30003917AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F6946C227C7E2FA00A814C2 /* Project object */;
+	rootObject = 3F82330227FF3C2E003917AB /* Project object */;
 }

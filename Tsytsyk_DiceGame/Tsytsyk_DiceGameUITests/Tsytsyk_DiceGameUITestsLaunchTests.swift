@@ -2,7 +2,7 @@
 //  Tsytsyk_DiceGameUITestsLaunchTests.swift
 //  Tsytsyk_DiceGameUITests
 //
-//  Created by Student on 2/24/22.
+//  Created by Student on 4/7/22.
 //
 
 import XCTest

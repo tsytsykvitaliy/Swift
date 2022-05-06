@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8232D227F50A64003917AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8232D127F50A64003917AB /* AppDelegate.swift */; };
+		3F8232D427F50A64003917AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8232D327F50A64003917AB /* SceneDelegate.swift */; };
+		3F8232D627F50A64003917AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8232D527F50A64003917AB /* ViewController.swift */; };
+		3F8232D927F50A64003917AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8232D727F50A64003917AB /* Main.storyboard */; };
+		3F8232DB27F50A6C003917AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8232DA27F50A6C003917AB /* Assets.xcassets */; };
+		3F8232DE27F50A6C003917AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8232DC27F50A6C003917AB /* LaunchScreen.storyboard */; };
+		3F8232E927F50A6C003917AB /* Tsytsyk_WordGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8232E827F50A6C003917AB /* Tsytsyk_WordGuessTests.swift */; };
+		3F8232F327F50A6C003917AB /* Tsytsyk_WordGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8232F227F50A6C003917AB /* Tsytsyk_WordGuessUITests.swift */; };
+		3F8232F527F50A6C003917AB /* Tsytsyk_WordGuessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8232F427F50A6C003917AB /* Tsytsyk_WordGuessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8232E527F50A6C003917AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8232C627F50A64003917AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8232CD27F50A64003917AB;
+			remoteInfo = Tsytsyk_WordGuess;
+		};
+		3F8232EF27F50A6C003917AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8232C627F50A64003917AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8232CD27F50A64003917AB;
+			remoteInfo = Tsytsyk_WordGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8232CE27F50A64003917AB /* Tsytsyk_WordGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tsytsyk_WordGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8232D127F50A64003917AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8232D327F50A64003917AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F8232D527F50A64003917AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8232D827F50A64003917AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8232DA27F50A6C003917AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8232DD27F50A6C003917AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8232DF27F50A6C003917AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8232E427F50A6C003917AB /* Tsytsyk_WordGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tsytsyk_WordGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8232E827F50A6C003917AB /* Tsytsyk_WordGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_WordGuessTests.swift; sourceTree = "<group>"; };
+		3F8232EE27F50A6C003917AB /* Tsytsyk_WordGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tsytsyk_WordGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8232F227F50A6C003917AB /* Tsytsyk_WordGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_WordGuessUITests.swift; sourceTree = "<group>"; };
+		3F8232F427F50A6C003917AB /* Tsytsyk_WordGuessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tsytsyk_WordGuessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8232CB27F50A64003917AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8232E127F50A6C003917AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8232EB27F50A6C003917AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8232C527F50A64003917AB = {
+			isa = PBXGroup;
+			children = (
+				3F8232D027F50A64003917AB /* Tsytsyk_WordGuess */,
+				3F8232E727F50A6C003917AB /* Tsytsyk_WordGuessTests */,
+				3F8232F127F50A6C003917AB /* Tsytsyk_WordGuessUITests */,
+				3F8232CF27F50A64003917AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8232CF27F50A64003917AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8232CE27F50A64003917AB /* Tsytsyk_WordGuess.app */,
+				3F8232E427F50A6C003917AB /* Tsytsyk_WordGuessTests.xctest */,
+				3F8232EE27F50A6C003917AB /* Tsytsyk_WordGuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8232D027F50A64003917AB /* Tsytsyk_WordGuess */ = {
+			isa = PBXGroup;
+			children = (
+				3F8232D127F50A64003917AB /* AppDelegate.swift */,
+				3F8232D327F50A64003917AB /* SceneDelegate.swift */,
+				3F8232D527F50A64003917AB /* ViewController.swift */,
+				3F8232D727F50A64003917AB /* Main.storyboard */,
+				3F8232DA27F50A6C003917AB /* Assets.xcassets */,
+				3F8232DC27F50A6C003917AB /* LaunchScreen.storyboard */,
+				3F8232DF27F50A6C003917AB /* Info.plist */,
+			);
+			path = Tsytsyk_WordGuess;
+			sourceTree = "<group>";
+		};
+		3F8232E727F50A6C003917AB /* Tsytsyk_WordGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8232E827F50A6C003917AB /* Tsytsyk_WordGuessTests.swift */,
+			);
+			path = Tsytsyk_WordGuessTests;
+			sourceTree = "<group>";
+		};
+		3F8232F127F50A6C003917AB /* Tsytsyk_WordGuessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8232F227F50A6C003917AB /* Tsytsyk_WordGuessUITests.swift */,
+				3F8232F427F50A6C003917AB /* Tsytsyk_WordGuessUITestsLaunchTests.swift */,
+			);
+			path = Tsytsyk_WordGuessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8232CD27F50A64003917AB /* Tsytsyk_WordGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8232F827F50A6C003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_WordGuess" */;
+			buildPhases = (
+				3F8232CA27F50A64003917AB /* Sources */,
+				3F8232CB27F50A64003917AB /* Frameworks */,
+				3F8232CC27F50A64003917AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tsytsyk_WordGuess;
+			productName = Tsytsyk_WordGuess;
+			productReference = 3F8232CE27F50A64003917AB /* Tsytsyk_WordGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8232E327F50A6C003917AB /* Tsytsyk_WordGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8232FB27F50A6C003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_WordGuessTests" */;
+			buildPhases = (
+				3F8232E027F50A6C003917AB /* Sources */,
+				3F8232E127F50A6C003917AB /* Frameworks */,
+				3F8232E227F50A6C003917AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8232E627F50A6C003917AB /* PBXTargetDependency */,
+			);
+			name = Tsytsyk_WordGuessTests;
+			productName = Tsytsyk_WordGuessTests;
+			productReference = 3F8232E427F50A6C003917AB /* Tsytsyk_WordGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8232ED27F50A6C003917AB /* Tsytsyk_WordGuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8232FE27F50A6C003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_WordGuessUITests" */;
+			buildPhases = (
+				3F8232EA27F50A6C003917AB /* Sources */,
+				3F8232EB27F50A6C003917AB /* Frameworks */,
+				3F8232EC27F50A6C003917AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8232F027F50A6C003917AB /* PBXTargetDependency */,
+			);
+			name = Tsytsyk_WordGuessUITests;
+			productName = Tsytsyk_WordGuessUITests;
+			productReference = 3F8232EE27F50A6C003917AB /* Tsytsyk_WordGuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8232C627F50A64003917AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3F8232CD27F50A64003917AB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3F8232E327F50A6C003917AB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3F8232CD27F50A64003917AB;
+					};
+					3F8232ED27F50A6C003917AB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3F8232CD27F50A64003917AB;
+					};
+				};
+			};
+			buildConfigurationList = 3F8232C927F50A64003917AB /* Build configuration list for PBXProject "Tsytsyk_WordGuess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8232C527F50A64003917AB;
+			productRefGroup = 3F8232CF27F50A64003917AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8232CD27F50A64003917AB /* Tsytsyk_WordGuess */,
+				3F8232E327F50A6C003917AB /* Tsytsyk_WordGuessTests */,
+				3F8232ED27F50A6C003917AB /* Tsytsyk_WordGuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8232CC27F50A64003917AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8232DE27F50A6C003917AB /* LaunchScreen.storyboard in Resources */,
+				3F8232DB27F50A6C003917AB /* Assets.xcassets in Resources */,
+				3F8232D927F50A64003917AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8232E227F50A6C003917AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8232EC27F50A6C003917AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8232CA27F50A64003917AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8232D627F50A64003917AB /* ViewController.swift in Sources */,
+				3F8232D227F50A64003917AB /* AppDelegate.swift in Sources */,
+				3F8232D427F50A64003917AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8232E027F50A6C003917AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8232E927F50A6C003917AB /* Tsytsyk_WordGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8232EA27F50A6C003917AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8232F527F50A6C003917AB /* Tsytsyk_WordGuessUITestsLaunchTests.swift in Sources */,
+				3F8232F327F50A6C003917AB /* Tsytsyk_WordGuessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8232E627F50A6C003917AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8232CD27F50A64003917AB /* Tsytsyk_WordGuess */;
+			targetProxy = 3F8232E527F50A6C003917AB /* PBXContainerItemProxy */;
+		};
+		3F8232F027F50A6C003917AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8232CD27F50A64003917AB /* Tsytsyk_WordGuess */;
+			targetProxy = 3F8232EF27F50A6C003917AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8232D727F50A64003917AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8232D827F50A64003917AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8232DC27F50A6C003917AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8232DD27F50A6C003917AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8232F627F50A6C003917AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8232F727F50A6C003917AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8232F927F50A6C003917AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tsytsyk_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tsytsyk_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Tsytsyk-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8232FA27F50A6C003917AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tsytsyk_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tsytsyk_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Tsytsyk-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8232FC27F50A6C003917AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Tsytsyk-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsytsyk_WordGuess.app/Tsytsyk_WordGuess";
+			};
+			name = Debug;
+		};
+		3F8232FD27F50A6C003917AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Tsytsyk-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsytsyk_WordGuess.app/Tsytsyk_WordGuess";
+			};
+			name = Release;
+		};
+		3F8232FF27F50A6C003917AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Tsytsyk-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tsytsyk_WordGuess;
+			};
+			name = Debug;
+		};
+		3F82330027F50A6C003917AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Tsytsyk-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tsytsyk_WordGuess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8232C927F50A64003917AB /* Build configuration list for PBXProject "Tsytsyk_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8232F627F50A6C003917AB /* Debug */,
+				3F8232F727F50A6C003917AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8232F827F50A6C003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8232F927F50A6C003917AB /* Debug */,
+				3F8232FA27F50A6C003917AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8232FB27F50A6C003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_WordGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8232FC27F50A6C003917AB /* Debug */,
+				3F8232FD27F50A6C003917AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8232FE27F50A6C003917AB /* Build configuration list for PBXNativeTarget "Tsytsyk_WordGuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8232FF27F50A6C003917AB /* Debug */,
+				3F82330027F50A6C003917AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8232C627F50A64003917AB /* Project object */;
+}
